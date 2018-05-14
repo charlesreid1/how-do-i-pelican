@@ -3,7 +3,9 @@ site_url: https://pages.charlesreid1.com/how-do-i-pelican
 repo_name: charlesreid1/how-do-i-pelican
 repo_url: https://github.com/charlesreid1/how-do-i-pelican
 edit_uri: ""
-copyright: 'Copyright &copy; 2018 <a href="https://charlesreid1.com">Charles Reid</a>, released under the <a href="https://git.charlesreid1.com/charlesreid1/how-do-i-pelican/src/branch/master/LICENSE">MIT license</a>'
+
+copyright: 'Copyright &copy; 2018 <a href="https://charlesreid1.com">Charles Reid</a>, released under the <a href="https://opensource.org/licenses/MIT">MIT license</a>'
+
 docs_dir: docs
 site_dir: site
 extra_css:
@@ -19,8 +21,6 @@ theme:
   font:
     text: 'Bitter'
     code: 'PT Mono'
-markdown_extensions:
-  - admonition
 pages:
   - "Index" : "index.md"
   - "Before You Start" : "Before.md"
@@ -31,3 +31,11 @@ pages:
   - "Serving Your Static Site" : "Serving.md"
   - "Adding Content" : "Adding.md"
   - "Hosting on Github Pages" : "Hosting.md"
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true

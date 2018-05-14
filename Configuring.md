@@ -24,15 +24,8 @@ DEFAULT_LANG = u'en'
 # --------------8<---------------------
 # Theme
 
-THEME = 'gum'
-# https://github.com/getpelican/pelican-themes/tree/master/gum
-
-GITHUB_URL = ''
-TWITTER_URL = ''
-FACEBOOK_URL = ''
-GOOGLEPLUS_URL = ''
-GOOGLE_ANALYTICS_ID = ''
-GOOGLE_ANALYTICS_SITENAME = ''
+THEME = 'simple-bootstrap'
+# https://github.com/getpelican/pelican-themes/tree/master/simple-bootstrap
 
 
 # --------------8<---------------------

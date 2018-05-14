@@ -1,4 +1,9 @@
 site_name: how do I pelican?
+site_url: https://pages.charlesreid1.com/how-do-i-pelican
+repo_name: charlesreid1/how-do-i-pelican
+repo_url: https://github.com/charlesreid1/how-do-i-pelican
+edit_uri: ""
+copyright: 'Copyright &copy; 2018 <a href="https://charlesreid1.com">Charles Reid</a>'
 docs_dir: docs
 site_dir: site
 extra_css:
@@ -12,7 +17,7 @@ theme:
   logo:
     icon: 'help'
   font:
-    text: 'Source Serif Pro'
+    text: 'Bitter'
     code: 'PT Mono'
 markdown_extensions:
   - admonition

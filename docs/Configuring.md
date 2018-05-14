@@ -12,14 +12,12 @@ Here's an example configuration file from
 **`pelicanconf.py`:**
 
 ```python
-import markdown
-
-AUTHOR = u'charlesreid1'
-SITENAME = u'ginsberg bot flock'
+AUTHOR = 'charlesreid1'
+SITENAME = 'how-do-i-pelican'
 SITEURL = ''
 PATH = 'content'
 TIMEZONE = 'America/Los_Angeles'
-DEFAULT_LANG = u'en'
+DEFAULT_LANG = 'en'
 
 # --------------8<---------------------
 # Theme

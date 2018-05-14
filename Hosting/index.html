@@ -1,0 +1,607 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../">
+      <meta name="generator" content="mkdocs-0.17.3, mkdocs-material-2.7.2">
+    
+    
+      
+        <title>Hosting on Github Pages - how do I pelican?</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/application.8d40d89b.css">
+      
+        <link rel="stylesheet" href="../assets/stylesheets/application-palette.6079476c.css">
+      
+    
+    
+      <script src="../assets/javascripts/modernizr.1aa3b519.js"></script>
+    
+    
+      <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+      
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Serif+Pro:300,400,400i,700|PT+Mono">
+        <style>body,input{font-family:"Source Serif Pro","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"PT Mono","Courier New",Courier,monospace}</style>
+      
+      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+    
+      <link rel="stylesheet" href="../css/custom.css">
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="drawer"></label>
+    
+      <a href="#hosting-on-github-pages" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href=".." title="how do I pelican?" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon">help</i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            
+              <span class="md-header-nav__topic">
+                how do I pelican?
+              </span>
+              <span class="md-header-nav__topic">
+                Hosting on Github Pages
+              </span>
+            
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          
+            <label class="md-icon md-icon--search md-header-nav__button" for="search"></label>
+            
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+          
+        
+      </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="drawer">
+    <span class="md-nav__button md-logo">
+      
+        <i class="md-icon">help</i>
+      
+    </span>
+    how do I pelican?
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href=".." title="Index" class="md-nav__link">
+      Index
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../Before/" title="Before You Start" class="md-nav__link">
+      Before You Start
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../Getting/" title="Getting Started with Pelican" class="md-nav__link">
+      Getting Started with Pelican
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../Configuring/" title="Configuring Your Pelican Site" class="md-nav__link">
+      Configuring Your Pelican Site
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../Theming/" title="Theming Your Pelican Site" class="md-nav__link">
+      Theming Your Pelican Site
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../Generating/" title="Generating Your Pelican Site" class="md-nav__link">
+      Generating Your Pelican Site
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../Serving/" title="Serving Your Static Site" class="md-nav__link">
+      Serving Your Static Site
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../Adding/" title="Adding Content" class="md-nav__link">
+      Adding Content
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="toc">
+        Hosting on Github Pages
+      </label>
+    
+    <a href="./" title="Hosting on Github Pages" class="md-nav__link md-nav__link--active">
+      Hosting on Github Pages
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#differences-between-personal-and-project-pages" title="Differences between personal and project pages" class="md-nav__link">
+    Differences between personal and project pages
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#where-is-it" title="Where is it?" class="md-nav__link">
+    Where is it?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#initializing-gh-pages-branch" title="Initializing gh-pages branch" class="md-nav__link">
+    Initializing gh-pages branch
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#enabling-github-pages" title="Enabling Github Pages" class="md-nav__link">
+    Enabling Github Pages
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#adding-the-real-content" title="Adding the real content" class="md-nav__link">
+    Adding the real content
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#differences-between-personal-and-project-pages" title="Differences between personal and project pages" class="md-nav__link">
+    Differences between personal and project pages
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#where-is-it" title="Where is it?" class="md-nav__link">
+    Where is it?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#initializing-gh-pages-branch" title="Initializing gh-pages branch" class="md-nav__link">
+    Initializing gh-pages branch
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#enabling-github-pages" title="Enabling Github Pages" class="md-nav__link">
+    Enabling Github Pages
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#adding-the-real-content" title="Adding the real content" class="md-nav__link">
+    Adding the real content
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="hosting-on-github-pages">Hosting on Github Pages</h1>
+<p>Now that you've configured your <a href="https://github.com/getpelican/pelican">Pelican</a> site,
+created your content, viewed it, modified it,
+and are happy with it, you're ready to deploy
+your site somewhere viewable by the public.</p>
+<p>Enter Github Pages.</p>
+<p>Github provides free web hosting for static content
+for <em>every single repository on Github</em>.
+That means you can deploy your static site
+to Github Pages for no-hassle serverless
+web hosting.</p>
+<p>(Also see the <a href="http://docs.getpelican.com/en/stable/publish.html">publish</a>
+page of the pelican documentation.)</p>
+<h2 id="differences-between-personal-and-project-pages">Differences between personal and project pages</h2>
+<p>In this walkthrough we assume the most common scenario
+of deploying a page on Github Pages for a project.</p>
+<p>Setting up a personal page requires changing 
+branch names - see <a href="../Getting/">getting started</a>
+and the section on branches in particular.
+Change <code>gh-pages</code> to <code>master</code> and <code>master</code> to <code>source</code>.</p>
+<p>The rest of the document will assume you are creating
+a project page.</p>
+<h2 id="where-is-it">Where is it?</h2>
+<p>Where do Github Pages live?</p>
+<p>If your username is <code>username</code> and your project name is <code>projectname</code>,
+the Github source code is at:</p>
+<pre><code>https://github.com/username/projectname
+</code></pre>
+
+<p>and the Github Pages page will be at:</p>
+<pre><code>https://username.github.io/projectname
+</code></pre>
+
+<h2 id="initializing-gh-pages-branch">Initializing gh-pages branch</h2>
+<p>Before you begin, you have to create a <code>gh-pages</code> branch.
+We want to create a new branch that is <em>completely independent</em>
+of all other branches, because this branch will only contain
+the static content of our website - no code, no readmes, 
+nothing but HTML, CSS, and Javascript.</p>
+<p>We want to link the <code>gh-pages</code> branch, which will contain
+the site's static content, with the <code>output/</code> directory,
+where Pelican generates all of its static content.</p>
+<p>Remove the output directory, and clone a copy of 
+your repo to the output directory:</p>
+<pre><code>$ cd pelican/
+$ rm -rf output/
+$ git clone https://github.com/username/projectname.git output
+$ cd output/
+</code></pre>
+
+<p>Now create a new orphan branch - that's the git terminology
+for a branch that shares no history with any other branches.
+Call it <code>gh-pages</code>:</p>
+<pre><code>$ git checkout --orphan gh-pages
+</code></pre>
+
+<p>Now all the content that was in the master branch
+will show up as untracked files, because the new
+<code>gh-pages</code> branch is totally empty.</p>
+<p>Remove everything in the directory except
+the <code>.git</code> directory:</p>
+<pre><code>$ rm -rf *
+$ rm -rf .gitignore .gitmodules
+</code></pre>
+
+<p>Now add a simple "Hello world" page that we'll use 
+to make sure our Github Pages page is being 
+hosted correctly:</p>
+<pre><code>$ echo '&lt;h2&gt;Hello world!&lt;/h2&gt;' &gt; index.html
+$ git add index.html
+$ git commit index.html -m 'Initial commit of gh-pages branch'
+$ git push origin gh-pages
+</code></pre>
+
+<p>Now we have our intiial commit on the 
+<code>gh-pages</code> branch.</p>
+<h2 id="enabling-github-pages">Enabling Github Pages</h2>
+<p>We have one additional step to cover.
+After we create the <code>gh-pages</code> branch,
+we want to tell Github Pages that we have
+web content on that branch that we want 
+Github to host. </p>
+<p>Go to the repository settings,
+and scroll down to the Github Pages
+setting. Select the drop-down option
+to host your Github Pages content
+from the <code>gh-pages</code> branch.</p>
+<p>Now visit the URL to check out your
+Hello World page:</p>
+<pre><code>https://username.github.io/projectname
+</code></pre>
+
+<h2 id="adding-the-real-content">Adding the real content</h2>
+<p>We have a hello world page working,
+now let's add the real Pelican content.</p>
+<p>Back in the <code>pelican/</code> directory,
+clean out the <code>output/</code> directory
+(we'll be making everything from 
+scratch):</p>
+<pre><code>$ rm -rf output/*
+</code></pre>
+
+<p>Don't remove the <code>output/</code> directory itself though!</p>
+<p>Now make the content:</p>
+<pre><code>$ pelican content
+</code></pre>
+
+<p>Now add the content to the <code>gh-pages</code> branch 
+and push it to Github to deploy it:</p>
+<pre><code>$ cd output/
+$ git add -A .
+$ git commit -a -m 'Updating site'
+$ git push origin gh-pages
+</code></pre>
+
+<p>This will push the new static site (this time with 
+the Pelican output) to the <code>gh-pages</code> branch on Github.
+Sometimes the site updates really fast (few seconds),
+sometimes it takes longer, but never more than about a minute.</p>
+<p>Don't forget to add a link to your new page
+in the repository description (and in your README)
+to make it easier to find!</p>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../Adding/" title="Adding Content" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Adding Content
+              </span>
+            </div>
+          </a>
+        
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="http://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+        
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../assets/javascripts/application.0cf9b500.js"></script>
+      
+      <script>app.initialize({version:"0.17.3",url:{base:".."}})</script>
+      
+        <script src="../search/require.js"></script>
+      
+        <script src="../search/search.js"></script>
+      
+    
+    
+      
+    
+  </body>
+</html>

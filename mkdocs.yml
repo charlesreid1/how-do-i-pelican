@@ -1,0 +1,28 @@
+site_name: how do I pelican?
+docs_dir: docs
+site_dir: site
+extra_css:
+  - css/custom.css
+theme: 
+  name: null
+  custom_dir: 'mkdocs-material/material'
+  palette:
+    primary: 'indigo'
+    accent: 'indigo'
+  logo:
+    icon: 'help'
+  font:
+    text: 'Source Serif Pro'
+    code: 'PT Mono'
+markdown_extensions:
+  - admonition
+pages:
+  - "Index" : "index.md"
+  - "Before You Start" : "Before.md"
+  - "Getting Started with Pelican" : "Getting.md"
+  - "Configuring Your Pelican Site" : "Configuring.md"
+  - "Theming Your Pelican Site" : "Theming.md"
+  - "Generating Your Pelican Site" : "Generating.md"
+  - "Serving Your Static Site" : "Serving.md"
+  - "Adding Content" : "Adding.md"
+  - "Hosting on Github Pages" : "Hosting.md"

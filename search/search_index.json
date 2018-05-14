@@ -72,7 +72,7 @@
         },
         {
             "location": "/Theming/",
-            "text": "Theming your Pelican site\n\n\nCustom themes are where Pelican becomes really powerful.\n\n\nFor this tutorial, though, we'll stick to the basics.\n\n\nSee \npelican-themes\n\non Github for a full list of themes.\n\n\nSee \npelicanthemes.com\n\nfor a gallery of themes.\n\n\ngum theme\n\n\nFor this example, we'll use \ngum\n,\na simple Bootstrap theme.\n\n\nThe theme's README (linked to above) tells us what settings to include \nin our \npelicanconf.py\n.\n\n\nIn this case, we'll leave most of these blank so they don't show up \nin the final page:\n\n\nGITHUB_URL = ''\nTWITTER_URL = ''\nFACEBOOK_URL = ''\nGOOGLEPLUS_URL = ''\n\nGOOGLE_ANALYTICS_ID = ''\nGOOGLE_ANALYTICS_SITENAME = ''\n\n\n\n\nTo use the gum theme, we have to install it.\nStart by checking out the pelican-themes repo:\n\n\n$ git clone --recursive https://github.com/getpelican/pelican-themes \n\n$ cd pelican-themes\n\n$ pelican-themes -i gum\n\n\n\n\nIf you modify or update the theme, you can \nuse the \n-U\n flag (for Update) with \npelican-themes\n:\n\n\n$ pelican-themes -U gum\n\n\n\n\nNow you can set the gum theme in your \npelicanconf.py\n\nby setting the \nTHEME\n variable:\n\n\nTHEME=\"gum\"",
+            "text": "Theming your Pelican site\n\n\nCustom themes are where Pelican becomes really powerful.\n\n\nFor this tutorial, though, we'll stick to the basics.\n\n\nSee \npelican-themes\n\non Github for a full list of themes.\n\n\nSee \npelicanthemes.com\n\nfor a gallery of themes.\n\n\nsimple-bootstrap theme\n\n\nFor this example, we'll use the \nsimple-bootstrap\n,\na simple Bootstrap theme.\n\n\nTo use the simple-bootstrap theme, we have to install it.\nStart by checking out the pelican-themes repo:\n\n\n$ git clone --recursive https://github.com/getpelican/pelican-themes \n\n$ cd pelican-themes\n\n$ pelican-themes -i simple-bootstrap\n\n\n\n\nIf you modify or update the theme, you can \nuse the \n-U\n flag (for Update) with \npelican-themes\n:\n\n\n$ pelican-themes -U simple-bootstrap\n\n\n\n\nNow you can set the gum theme in your \npelicanconf.py\n\nby setting the \nTHEME\n variable:\n\n\nTHEME=\"simple-bootstrap\"",
             "title": "Theming Your Pelican Site"
         },
         {
@@ -81,9 +81,9 @@
             "title": "Theming your Pelican site"
         },
         {
-            "location": "/Theming/#gum-theme",
-            "text": "For this example, we'll use  gum ,\na simple Bootstrap theme.  The theme's README (linked to above) tells us what settings to include \nin our  pelicanconf.py .  In this case, we'll leave most of these blank so they don't show up \nin the final page:  GITHUB_URL = ''\nTWITTER_URL = ''\nFACEBOOK_URL = ''\nGOOGLEPLUS_URL = ''\n\nGOOGLE_ANALYTICS_ID = ''\nGOOGLE_ANALYTICS_SITENAME = ''  To use the gum theme, we have to install it.\nStart by checking out the pelican-themes repo:  $ git clone --recursive https://github.com/getpelican/pelican-themes \n\n$ cd pelican-themes\n\n$ pelican-themes -i gum  If you modify or update the theme, you can \nuse the  -U  flag (for Update) with  pelican-themes :  $ pelican-themes -U gum  Now you can set the gum theme in your  pelicanconf.py \nby setting the  THEME  variable:  THEME=\"gum\"",
-            "title": "gum theme"
+            "location": "/Theming/#simple-bootstrap-theme",
+            "text": "For this example, we'll use the  simple-bootstrap ,\na simple Bootstrap theme.  To use the simple-bootstrap theme, we have to install it.\nStart by checking out the pelican-themes repo:  $ git clone --recursive https://github.com/getpelican/pelican-themes \n\n$ cd pelican-themes\n\n$ pelican-themes -i simple-bootstrap  If you modify or update the theme, you can \nuse the  -U  flag (for Update) with  pelican-themes :  $ pelican-themes -U simple-bootstrap  Now you can set the gum theme in your  pelicanconf.py \nby setting the  THEME  variable:  THEME=\"simple-bootstrap\"",
+            "title": "simple-bootstrap theme"
         },
         {
             "location": "/Generating/",

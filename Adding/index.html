@@ -465,7 +465,7 @@
               
                 
                 
-                <h1 id="adding-content-to-your-site">Adding content to your site</h1>
+                <h1 id="adding-content-to-your-site">Adding content to your site<a class="headerlink" href="#adding-content-to-your-site" title="Permanent link">&para;</a></h1>
 <p>Now that you have generated your site with the 
 <code>pelican</code> command, and have used Python to serve
 your documentation with a simple HTTP server,
@@ -475,7 +475,7 @@ content for your website.</p>
 page of pelican documentation.</p>
 <p>Pelican has two types of content: pages (unchanging, no chronology) 
 and articles (blog posts). We will cover each below.</p>
-<h2 id="adding-blog-posts-to-your-site">Adding blog posts to your site</h2>
+<h2 id="adding-blog-posts-to-your-site">Adding blog posts to your site<a class="headerlink" href="#adding-blog-posts-to-your-site" title="Permanent link">&para;</a></h2>
 <p>Let's cover how you add new content to your site.</p>
 <p>By default, Pelican is set up to create blog sites,
 so we'll cover how to create a blog. Creating static
@@ -485,7 +485,7 @@ in this document.</p>
 you create blog posts by adding Markdown files, and specify
 metadata using a YAML header.</p>
 <p>Here's a Markdown template for a blog post:</p>
-<pre><code>Title: My super title
+<div class="codehilite"><pre><span></span>Title: My super title
 Date: 2010-12-03 10:20
 Modified: 2010-12-05 19:30
 Category: Python
@@ -495,53 +495,58 @@ Authors: Alexis Metaireau, Conan Doyle
 Summary: Short version for index and feeds
 
 This is the content of my super blog post.
-</code></pre>
+</pre></div>
+
 
 <p>Note that not everything is necessary (e.g., Slug, Authors, Summary).
 Ultimately the variables in the YAML headers of each
 blog post are passed to the theme's page templates,
 so what information gets used depends on the theme 
 that you use.</p>
-<h2 id="adding-pages-to-your-site">Adding pages to your site</h2>
+<h2 id="adding-pages-to-your-site">Adding pages to your site<a class="headerlink" href="#adding-pages-to-your-site" title="Permanent link">&para;</a></h2>
 <p>Metadata for </p>
-<h2 id="linking-to-other-pages">Linking to other pages</h2>
+<h2 id="linking-to-other-pages">Linking to other pages<a class="headerlink" href="#linking-to-other-pages" title="Permanent link">&para;</a></h2>
 <p>As shown in the <a href="http://docs.getpelican.com/en/stable/content.html#linking-to-internal-content">linking to internal content</a>
 section of the pelican docs, you can link to other files</p>
 <p><strong><code>article1.md</code>:</strong></p>
-<pre><code class="plain">Title: The first article
+<div class="codehilite"><pre><span></span>Title: The first article
 Date: 2012-12-01 10:02
 
 See below intra-site link examples in Markdown format.
 
 [a link to another file]({filename}/article2.md)
-</code></pre>
+</pre></div>
+
 
 <p><strong><code>article2.md</code>:</strong></p>
-<pre><code class="plain">Title: The second article
+<div class="codehilite"><pre><span></span>Title: The second article
 Date: 2012-12-01 10:02
 
 More markdown goes _here_.
 
 [link back to article one]({filename}/article1.md)
-</code></pre>
+</pre></div>
+
 
 <p>See <a href="http://docs.getpelican.com/en/stable/content.html#linking-to-internal-content">docs</a> for details.</p>
-<h2 id="linking-to-static-files">Linking to static files</h2>
+<h2 id="linking-to-static-files">Linking to static files<a class="headerlink" href="#linking-to-static-files" title="Permanent link">&para;</a></h2>
 <p>For example, a project’s content directory might be structured like this:</p>
 <p>Suppose you have a directory structure like this:</p>
-<pre><code>content
+<div class="codehilite"><pre><span></span>content
 ├── images
 │   └── han.jpg
 ├── pdfs
 │   └── menu.pdf
 └── pages
     └── test.md
-</code></pre>
+</pre></div>
+
 
 <p>then in <code>test.md</code> you would link to other files like this:</p>
-<pre><code>![Alt Text]({filename}/images/han.jpg)
+<div class="codehilite"><pre><span></span>![Alt Text]({filename}/images/han.jpg)
 [Our Menu]({filename}/pdfs/menu.pdf)
-</code></pre>
+</pre></div>
+
 
 <p>See <a href="http://docs.getpelican.com/en/stable/content.html#linking-to-internal-content">docs</a>
 for details...</p>
@@ -602,7 +607,7 @@ for details...</p>
       <div class="md-footer-copyright">
         
           <div class="md-footer-copyright__highlight">
-            Copyright &copy; 2018 <a href="https://charlesreid1.com">Charles Reid</a>, released under the <a href="https://git.charlesreid1.com/charlesreid1/how-do-i-pelican/src/branch/master/LICENSE">MIT license</a>
+            Copyright &copy; 2018 <a href="https://charlesreid1.com">Charles Reid</a>, released under the <a href="https://opensource.org/licenses/MIT">MIT license</a>
           </div>
         
         powered by

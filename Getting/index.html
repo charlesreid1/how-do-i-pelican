@@ -505,7 +505,7 @@
               
                 
                 
-                <h1 id="getting-started-with-pelican">Getting Started with Pelican</h1>
+                <h1 id="getting-started-with-pelican">Getting Started with Pelican<a class="headerlink" href="#getting-started-with-pelican" title="Permanent link">&para;</a></h1>
 <p>There are a few things you'll need to get started with <a href="https://github.com/getpelican/pelican">Pelican</a>:</p>
 <ul>
 <li>(required) <code>pelicanconf.py</code> - pelican configuration file</li>
@@ -520,7 +520,7 @@ into your own repository, and modify the contents for
 your own static site.</p>
 <p>We'll walk through what the <code>pelican/</code> directory contains and what you 
 need to change to get a simple static site up and running. </p>
-<h2 id="how-pelican-works">How Pelican Works</h2>
+<h2 id="how-pelican-works">How Pelican Works<a class="headerlink" href="#how-pelican-works" title="Permanent link">&para;</a></h2>
 <p>Let's cover the 101 of how Pelican works.</p>
 <p>Pelican takes a pile of HTML, markdown, and other files,
 and compiles them into a static site. (The advantage of
@@ -543,11 +543,11 @@ final page.</p>
 repository for themes.</p>
 <p>See <a href="http://www.pelicanthemes.com/">live gallery</a>
 of pelican themes.</p>
-<h2 id="repository-and-branch-layout">Repository and Branch Layout</h2>
+<h2 id="repository-and-branch-layout">Repository and Branch Layout<a class="headerlink" href="#repository-and-branch-layout" title="Permanent link">&para;</a></h2>
 <p>When using Pelican to create a static site on Github Pages,
 you will need to organize your repository and set up 
 branches as follows.</p>
-<h3 id="recommended-way-project-page">Recommended way: project page</h3>
+<h3 id="recommended-way-project-page">Recommended way: project page<a class="headerlink" href="#recommended-way-project-page" title="Permanent link">&para;</a></h3>
 <p>If you are hosting a project Github Pages site
 (that is, a Github Pages page for any arbitrary
 Github project), you should organize your repo
@@ -556,7 +556,7 @@ as follows:</p>
 <li><code>gh-pages</code> branch contains all static content</li>
 <li><code>master</code> branch contains the pelican site</li>
 </ul>
-<h3 id="uncommon-way-personal-page">Uncommon way: personal page</h3>
+<h3 id="uncommon-way-personal-page">Uncommon way: personal page<a class="headerlink" href="#uncommon-way-personal-page" title="Permanent link">&para;</a></h3>
 <p>If you are hosting a personal Github Pages site
 (a repository under the account <code>@yourusername</code>
 called <code>yourusername.github.io</code>), this should be 
@@ -565,7 +565,7 @@ organized as follows:</p>
 <li><code>master</code> branch contains all static content</li>
 <li><code>source</code> branch contains the <code>pelican/</code> directory</li>
 </ul>
-<h3 id="clean-way-pelican-as-a-separate-branch">Clean way: pelican as a separate branch</h3>
+<h3 id="clean-way-pelican-as-a-separate-branch">Clean way: pelican as a separate branch<a class="headerlink" href="#clean-way-pelican-as-a-separate-branch" title="Permanent link">&para;</a></h3>
 <p>If you have a large project or you really don't want 
 to clutter your repository branch with Pelican files,
 you can also set up a three-branch model as follows:</p>
@@ -574,11 +574,11 @@ you can also set up a three-branch model as follows:</p>
 <li><code>source</code> branch contains the Pelican files for your site</li>
 <li><code>gh-pages</code> contains all static content for the Github Pages page</li>
 </ul>
-<h2 id="directory-layout">Directory Layout</h2>
+<h2 id="directory-layout">Directory Layout<a class="headerlink" href="#directory-layout" title="Permanent link">&para;</a></h2>
 <p>While Pelican is flexible enough to handle many
 directory layouts, let's cover a common pattern:
 putting markdown files into <code>content/</code>.</p>
-<pre><code>my-cool-project/
+<div class="codehilite"><pre><span></span>my-cool-project/
 
     pelican/
 
@@ -601,7 +601,8 @@ putting markdown files into <code>content/</code>.</p>
                 my-image-1.jpg
                 my-image-2.jpg
                 my-image-3.jpg
-</code></pre>
+</pre></div>
+
 
 <p>The pelican directory contains a configuration
 file <code>pelicanconf.py</code>, a folder with content
@@ -671,7 +672,7 @@ site (see <a href="#">workflow: update</a> WorkflowUpdate.md).</p>
       <div class="md-footer-copyright">
         
           <div class="md-footer-copyright__highlight">
-            Copyright &copy; 2018 <a href="https://charlesreid1.com">Charles Reid</a>, released under the <a href="https://git.charlesreid1.com/charlesreid1/how-do-i-pelican/src/branch/master/LICENSE">MIT license</a>
+            Copyright &copy; 2018 <a href="https://charlesreid1.com">Charles Reid</a>, released under the <a href="https://opensource.org/licenses/MIT">MIT license</a>
           </div>
         
         powered by

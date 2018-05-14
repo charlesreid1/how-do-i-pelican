@@ -419,7 +419,7 @@
                 
                   <h1>Configuring Your Pelican Site</h1>
                 
-                <h2 id="configuring-your-pelican-site">Configuring Your Pelican Site</h2>
+                <h2 id="configuring-your-pelican-site">Configuring Your Pelican Site<a class="headerlink" href="#configuring-your-pelican-site" title="Permanent link">&para;</a></h2>
 <p>The <code>pelicanconf.py</code> file contains all configuration variables
 that <a href="https://github.com/getpelican/pelican">Pelican</a> sites need to set.</p>
 <p>Some of the configuration variables are common to all Pelican sites,
@@ -427,50 +427,51 @@ others are particular to the theme you are using.</p>
 <p>Here's an example configuration file from 
 <a href="https://github.com/charlesreid1/magic-flying-pelican">magic-flying-pelican</a>:</p>
 <p><strong><code>pelicanconf.py</code>:</strong></p>
-<pre><code class="python">AUTHOR = 'charlesreid1'
-SITENAME = 'how-do-i-pelican'
-SITEURL = ''
-PATH = 'content'
-TIMEZONE = 'America/Los_Angeles'
-DEFAULT_LANG = 'en'
+<div class="codehilite"><pre><span></span><span class="n">AUTHOR</span> <span class="o">=</span> <span class="s1">&#39;charlesreid1&#39;</span>
+<span class="n">SITENAME</span> <span class="o">=</span> <span class="s1">&#39;how-do-i-pelican&#39;</span>
+<span class="n">SITEURL</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span>
+<span class="n">PATH</span> <span class="o">=</span> <span class="s1">&#39;content&#39;</span>
+<span class="n">TIMEZONE</span> <span class="o">=</span> <span class="s1">&#39;America/Los_Angeles&#39;</span>
+<span class="n">DEFAULT_LANG</span> <span class="o">=</span> <span class="s1">&#39;en&#39;</span>
 
-# --------------8&lt;---------------------
-# Theme
+<span class="c1"># --------------8&lt;---------------------</span>
+<span class="c1"># Theme</span>
 
-THEME = 'simple-bootstrap'
-# https://github.com/getpelican/pelican-themes/tree/master/simple-bootstrap
-
-
-# --------------8&lt;---------------------
-# Files and content
+<span class="n">THEME</span> <span class="o">=</span> <span class="s1">&#39;simple-bootstrap&#39;</span>
+<span class="c1"># https://github.com/getpelican/pelican-themes/tree/master/simple-bootstrap</span>
 
 
-# This will look for a directory img/ 
-# inside the directory content/
-# The contents of img/ will be available at 
-# {{ SITEURL }}/img
-STATIC_PATHS = ['img']
-
-# If we want to create static pages,
-# we should put them in content/pages
-PAGE_PATHS = ['pages']
-
-# If we want to create blog posts (articles),
-# we should put them in content/posts
-ARTICLE_PATHS = ['posts']
+<span class="c1"># --------------8&lt;---------------------</span>
+<span class="c1"># Files and content</span>
 
 
-# --------------8&lt;---------------------
-# idk just some dumb stuff
+<span class="c1"># This will look for a directory img/ </span>
+<span class="c1"># inside the directory content/</span>
+<span class="c1"># The contents of img/ will be available at </span>
+<span class="c1"># {{ SITEURL }}/img</span>
+<span class="n">STATIC_PATHS</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;img&#39;</span><span class="p">]</span>
 
-DISPLAY_PAGES_ON_MENU = False
-FEED_ALL_ATOM = None
-CATEGORY_FEED_ATOM = None
-TRANSLATION_FEED_ATOM = None
-AUTHOR_FEED_ATOM = None
-AUTHOR_FEED_RSS = None
-DEFAULT_PAGINATION = False
-</code></pre>
+<span class="c1"># If we want to create static pages,</span>
+<span class="c1"># we should put them in content/pages</span>
+<span class="n">PAGE_PATHS</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;pages&#39;</span><span class="p">]</span>
+
+<span class="c1"># If we want to create blog posts (articles),</span>
+<span class="c1"># we should put them in content/posts</span>
+<span class="n">ARTICLE_PATHS</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;posts&#39;</span><span class="p">]</span>
+
+
+<span class="c1"># --------------8&lt;---------------------</span>
+<span class="c1"># idk just some dumb stuff</span>
+
+<span class="n">DISPLAY_PAGES_ON_MENU</span> <span class="o">=</span> <span class="bp">False</span>
+<span class="n">FEED_ALL_ATOM</span> <span class="o">=</span> <span class="bp">None</span>
+<span class="n">CATEGORY_FEED_ATOM</span> <span class="o">=</span> <span class="bp">None</span>
+<span class="n">TRANSLATION_FEED_ATOM</span> <span class="o">=</span> <span class="bp">None</span>
+<span class="n">AUTHOR_FEED_ATOM</span> <span class="o">=</span> <span class="bp">None</span>
+<span class="n">AUTHOR_FEED_RSS</span> <span class="o">=</span> <span class="bp">None</span>
+<span class="n">DEFAULT_PAGINATION</span> <span class="o">=</span> <span class="bp">False</span>
+</pre></div>
+
 
 <p>This will configure the <code>content/</code> directory
 to contain a <code>posts/</code> folder with blog posts
@@ -537,7 +538,7 @@ of the pelican documentation for details.</p>
       <div class="md-footer-copyright">
         
           <div class="md-footer-copyright__highlight">
-            Copyright &copy; 2018 <a href="https://charlesreid1.com">Charles Reid</a>, released under the <a href="https://git.charlesreid1.com/charlesreid1/how-do-i-pelican/src/branch/master/LICENSE">MIT license</a>
+            Copyright &copy; 2018 <a href="https://charlesreid1.com">Charles Reid</a>, released under the <a href="https://opensource.org/licenses/MIT">MIT license</a>
           </div>
         
         powered by

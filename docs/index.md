@@ -5,6 +5,12 @@ using Pelican to build a static site.
 It will skip a lot of the details in the 
 interest of simplicity.
 
+HTML pages for this tutorial (you are here): [https://pages.charlesreid1.com/how-do-i-pelican/](https://pages.charlesreid1.com/how-do-i-pelican/)
+
+Source code for this tutorial on git.charlesreid1.com: [https://git.charlesreid1.com/charlesreid1/how-do-i-pelican](https://git.charlesreid1.com/charlesreid1/how-do-i-pelican)
+
+Source code for this tutorial on Github: [https://github.com/charlesreid1/how-do-i-pelican](https://github.com/charlesreid1/how-do-i-pelican)
+
 The outline:
 
 * [Before you start - installing Pelican](Before.md)

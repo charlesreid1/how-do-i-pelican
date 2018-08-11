@@ -21,7 +21,7 @@ theme:
   font:
     text: 'Bitter'
     code: 'PT Mono'
-pages:
+nav:
   - "Index" : "index.md"
   - "Before You Start" : "Before.md"
   - "Getting Started with Pelican" : "Getting.md"
@@ -39,3 +39,6 @@ markdown_extensions:
       guess_lang: false
   - toc:
       permalink: true
+
+
+strict: true
